@@ -6,6 +6,7 @@ class SearchBloc {
       BehaviorSubject<ArticleResponse>();
 
   search(String value) async {
+    print(value);
     ArticleResponse response = await _repository.search(value);
     _subject.sink.add(response);
   }

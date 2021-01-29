@@ -96,7 +96,7 @@ class _SourcePageState extends State<SourcePage> {
                         decoration: BoxDecoration(
                             image: DecorationImage(
                                 image: AssetImage(
-                                    "assets/logos/${sources[index].id}.png"),
+                                    "assets/logos/al-jazeera-english.png"),
                                 fit: BoxFit.cover)),
                       ),
                     ),

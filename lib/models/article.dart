@@ -14,7 +14,7 @@ class ArticleModel {
       this.image, this.date, this.content);
 
   ArticleModel.fromJson(Map<String, dynamic> json)
-      : source = SourceModel.fromJson(json["sources"]),
+      : source = SourceModel.fromJson(json["source"]),
         author = json["author"],
         title = json["title"],
         description = json["description"],
